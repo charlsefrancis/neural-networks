@@ -147,5 +147,7 @@ cv2.waitKey(0)
 
 #From there, open up a terminal and execute the following command:
 #Face detection with OpenCV and deep learning
+
+
 $ python detect_faces.py --image rooster.jpg --prototxt deploy.prototxt.txt \
 	--model res10_300x300_ssd_iter_140000.caffemodel
